@@ -13,7 +13,7 @@ public class TmInitV1Application {
 	@RequestMapping("/")
     @ResponseBody
     String home() {
-      return "Hello! This is a Toastmasters application";
+      return "Hello! This is a Toastmasters application!";
     }
 	
 	public static void main(String[] args) {
